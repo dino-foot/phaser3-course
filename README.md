@@ -1,2 +1,2 @@
 # phaser3-course
-source code of phaser3-course 
+lesson files/codes of phaser3-course 
