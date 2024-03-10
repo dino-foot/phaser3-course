@@ -16,6 +16,4 @@ export default class Preload extends Phaser.Scene {
         this.load.image('carrot', 'public/images/carrot.png');
         this.load.image('apple', 'public/images/apple.png');
     }
-
-    // create() { }
 }

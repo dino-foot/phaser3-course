@@ -13,7 +13,6 @@ export default class Game extends Phaser.Scene {
     }
 
     init() {
-        // console.log('init game-scene', this.cameras.main);
         this.centerX = this.cameras.main.centerX;
         this.centerY = this.cameras.main.centerY;
         const background = this.add.image(this.centerX, this.centerY, 'background').setOrigin(0.5);
@@ -112,6 +111,5 @@ export default class Game extends Phaser.Scene {
         const text = this.add.text(this.centerX, this.centerY, 'Game Over !', { fontSize: 40, color: '#000000' }).setOrigin(0.5);
         text.setDepth(4);
         text.setScrollFactor(0, 0);
-        // console.log('gameover', this.player.y);
     }
 }
